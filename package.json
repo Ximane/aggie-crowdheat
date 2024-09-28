@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "next dev -p 3001",
-    "build": "CI=false next build --ignore-lint --no-typescript",
+    "build": "CI=false next build",
     "preview": "next build && next start -p 3001",
     "lint": "next lint",
     "cy:open": "cypress open",
